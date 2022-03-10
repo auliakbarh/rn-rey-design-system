@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNReyDesignSysModule, { Counter } from 'rn-rey-design-system'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNReyDesignSysModule)
   })
 
   return <Counter />

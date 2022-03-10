@@ -1,17 +1,17 @@
 {
-  "name": "react-native-module-template",
-  "version": "2.5.1",
-  "description": "A starter for the React Native library written in TypeScript, with linked example project and optional native code in Swift and Kotlin.",
-  "homepage": "https://github.com/demchenkoalex/react-native-module-template#readme",
+  "name": "rn-rey-design-system",
+  "version": "1.0.0",
+  "description": "Designed components for react native project provided by rey.id",
+  "homepage": "https://github.com/auliakbarh/rn-rey-design-system#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Alex Demchenko <alexdemchenko@yahoo.com>",
+  "author": "Aulia Akbar Harahap <aulia@rey.id>",
   "license": "MIT",
   "files": [
     "android",
     "ios",
     "lib",
-    "react-native-module-template.podspec",
+    "rn-rey-design-system.podspec",
     "!android/build",
     "!.DS_Store",
     "!.gradle",
@@ -63,5 +63,11 @@
       "json",
       "node"
     ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react-native-aria": "^0.2.3",
+    "react-stately": "^3.12.2",
+    "tinycolor2": "^1.4.2"
   }
 }
